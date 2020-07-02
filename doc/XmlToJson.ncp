@@ -1,0 +1,74 @@
+<Project>
+  <Name>XmlToJson</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Project</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>XML_Parser</Name>
+        <Access>Public</Access>
+        <Location left="123" top="48" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private str __file</Member>
+        <Member type="Field">protected xml _data_xml</Member>
+        <Member type="Method">private xml __open_xml()</Member>
+        <Member type="Method">public void show()</Member>
+        <Member type="Method">public void save()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Adapter</Name>
+        <Access>Public</Access>
+        <Location left="291" top="336" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private json __big_json_data</Member>
+        <Member type="Field">private xml __Bog_xml_data</Member>
+        <Member type="Method">private list __to_json()</Member>
+        <Member type="Method">private void __big_json()</Member>
+        <Member type="Method">private void __to_xml()</Member>
+        <Member type="Method">private static list __dict_to_list()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Interface</Name>
+        <Access>Public</Access>
+        <Location left="290" top="631" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private None __target</Member>
+        <Member type="Method">public void NewMethod()</Member>
+        <Member type="Method">public void save()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Json_Parser</Name>
+        <Access>Public</Access>
+        <Location left="475" top="48" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private str __file</Member>
+        <Member type="Field">protected json _data_json</Member>
+        <Member type="Method">private json __open_json()</Member>
+        <Member type="Method">public void show()</Member>
+        <Member type="Method">public void save()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="1" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

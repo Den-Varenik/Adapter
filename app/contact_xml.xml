@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phoneBook>
+    <contact name="owner">
+        <phone type="work" number="000-000-000"/>
+        <phone type="home" number="000-002-000"/>
+    </contact>
+</phoneBook>

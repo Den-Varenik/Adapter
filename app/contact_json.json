@@ -1,0 +1,10 @@
+{
+  "phoneBook": [
+    {
+      "name": "Alex",
+      "phone": {
+        "work": "000-000-001"
+      }
+    }
+  ]
+}
